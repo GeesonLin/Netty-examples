@@ -1,0 +1,9 @@
+@startuml
+Alice -> Bob: Authentication Request
+Bob -> Mary: Forword to Mary
+Mary -> Bob: Reply to Bob
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
